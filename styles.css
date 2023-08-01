@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+#audience {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.7);
+  position: absolute;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  gap: 20px;
+  padding-top: 70px;
+margin: auto;
+
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: rgb(50, 50, 50);
+  transition: all 0.07s;
+}
+.key:hover {
+  background-color: black;
+}
+
+.playing {
+  transform: scale(1.1);
+  background-color: black;
+  border-color:blue;
+  box-shadow: 0 0 10px #5d00ff;
+}
